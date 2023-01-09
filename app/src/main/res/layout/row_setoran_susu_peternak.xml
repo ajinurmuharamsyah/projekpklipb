@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/white"
+    android:layout_marginBottom="1dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/tanggal_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Setoran Susu"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/namapet"
+            android:layout_below="@+id/tanggal_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Peternak"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/namakop"
+            android:layout_below="@+id/namapet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Koperasi"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/pagia"
+            android:layout_below="@+id/namakop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jam Setoran"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/jumlahsetsus"
+            android:layout_below="@+id/pagia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Setoran"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <!--        <TextView-->
+        <!--            android:id="@+id/jumlahsetsus"-->
+        <!--            android:layout_below="@+id/sorea"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Total Setoran Susu"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="15dp"-->
+        <!--            />-->
+        <TextView
+            android:id="@+id/hargasatuan1"
+            android:layout_below="@+id/jumlahsetsus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga Satuan"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/total1"
+            android:layout_below="@+id/hargasatuan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+        <ImageView
+            android:id="@+id/nextbtn"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_chevron_right_black_24dp"
+            android:layout_marginEnd="5dp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

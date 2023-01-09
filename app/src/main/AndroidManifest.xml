@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.emowwrevisi">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme1">
+        <activity android:name=".EditInvoiceActivity"></activity>
+        <activity android:name=".TambahInvoiceActivity" />
+        <activity android:name=".EditPembelianActivity" />
+        <activity android:name=".EditKualitasSusuActivity" />
+        <activity android:name=".EditSetoranSusuActivity" />
+        <activity android:name=".TambahPembelianActivity" />
+        <activity android:name=".TambahKualitasSusuActivity" />
+        <activity android:name=".TambahSetoranSusuActivity" />
+        <activity android:name=".InvoiceActivity" />
+        <activity android:name=".PembelianPeternakActivity" />
+        <activity android:name=".KualitasSusuActivity" />
+        <activity android:name=".SetoranSusuActivity" />
+        <activity android:name=".KoperasiDetailsActivity" />
+        <activity android:name=".KreditPeternakActivity" />
+        <activity android:name=".KreditKoperasiActivity" />
+        <activity android:name=".KeamananPeternakActivity" />
+        <activity android:name=".KeamananKoperasiActivity" />
+        <activity android:name=".GantiPeternakActivity" />
+        <activity android:name=".GantiKoperasiActivity" />
+        <activity android:name=".ProfilPeternakActivity" />
+        <activity android:name=".ProfilKoperasiActivity" />
+        <activity android:name=".SettingKoperasiActivity" />
+        <activity android:name=".SettingPeternakActivity" />
+        <activity android:name=".PeternakJoinActivity" />
+        <activity android:name=".KoperasiJoinActivity" />
+        <activity android:name=".DashboardKoperasiActivity" />
+        <activity android:name=".DasboardPeternakActivity" />
+        <activity android:name=".RegisterKoperasiActivity" />
+        <activity android:name=".RegisterPeternakActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

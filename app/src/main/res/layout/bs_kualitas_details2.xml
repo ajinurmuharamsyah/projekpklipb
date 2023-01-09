@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:backgroundTint="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_de"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_action"
+        android:padding="10dp">
+        <ImageButton
+            android:id="@+id/btnback"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:background="@null"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:text="Details Kualitas"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_t"
+        android:layout_below="@id/rl_de"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Tanggal :  "
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_below="@id/rl_de"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="dd/mm/yyyy"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+
+        android:layout_toRightOf="@id/tv_t"/>
+    <TextView
+        android:id="@+id/tv_n"
+        android:layout_below="@id/tv_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Nama Peternak :  "
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tv_namapet"
+        android:layout_below="@id/tv_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="NULL"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/tv_n"/>
+    <TextView
+        android:id="@+id/tv_k"
+        android:layout_below="@id/tv_n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Nama Koperasi :  "
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tv_namakop"
+        android:layout_below="@id/tv_n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="NULL"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/tv_n"/>
+    <TextView
+        android:id="@+id/tv_pk"
+        android:layout_below="@id/tv_k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Parameter Kualitas :  "
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tv_parameterkul"
+        android:layout_below="@id/tv_k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="NULL"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/tv_pk"/>
+    <TextView
+        android:id="@+id/tv_hs"
+        android:layout_below="@id/tv_pk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hasil :  "
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/tv_hasil1"
+        android:layout_below="@id/tv_pk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="NULL"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/tv_hs"/>
+    <TextView
+        android:id="@+id/tv_bs"
+        android:layout_below="@id/tv_hs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Bonus :  "
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/tv_bonus"
+        android:layout_below="@id/tv_hs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="NULL"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/tv_bs"/>
+    <TextView
+        android:id="@+id/tv_jku"
+        android:layout_below="@id/tv_bs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Jumlah Kualitas :  "
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/tv_jumlahkualitas"
+        android:layout_below="@id/tv_bs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="NULL"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/tv_jku"/>
+
+</RelativeLayout>
